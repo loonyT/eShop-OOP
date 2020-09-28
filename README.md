@@ -3,7 +3,7 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Must have features](#getting-started)
+* [Must have features](#Must have features)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Steps](#contributing)
@@ -19,13 +19,6 @@
 Freshshop is your new customer. They specialize in organic food and biodegradable bikes. Their store in Saint-Gilles is so profitable that they've opened another just below Thomas's apartment. To celebrate, they want to launch an e-commerce website at the same time.
 Freshshop already owns the frontend part of the project. You must now implement the back-end with NodeJS or Php in OOP.
 In this challenge, you will implement as many back-end functionalities as possible in OOP.
-
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
 
 
 ### Built With
