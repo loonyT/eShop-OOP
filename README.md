@@ -3,7 +3,7 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#built-with)
-* [Must have features](#Must have features)
+* [Must have features](#mustHavefeatures)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Steps](#contributing)
