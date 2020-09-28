@@ -100,10 +100,10 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-[contributors-shield](https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square)
-[contributors-url](https://github.com/othneildrew/Best-README-Template/graphs/contributors)
-[forks-shield](https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square)
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[license-url](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
-[linkedin-url](https://linkedin.com/in/othneildrew)
+1. [contributors-shield](https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square)
+2. [contributors-url](https://github.com/othneildrew/Best-README-Template/graphs/contributors)
+3. [forks-shield](https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square)
+4. [forks-url](https://github.com/othneildrew/Best-README-Template/network/members)
+5. [license-url](https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt)
+6. [linkedin-url](https://linkedin.com/in/othneildrew)
 
