@@ -6,6 +6,10 @@ const jwt = require('jsonwebtoken');
 
 const Admin = require('../models/admin');
 
+// ici on va enregistrer la route dans le routeur 
+
+
+
 router.get('/', (req, res, next) => {
 
     Admin.find({})
@@ -33,6 +37,9 @@ router.post('/signup', (req, res, next) => {
                 message: 'Already registered, try another email address'
             });
         }else{
+            
+            // utilisation du package de chiffrement Bcrypt pour ne pas stocker sous forme de texte brut mais sous forme de hash sécurisé 
+            
             bcrypt.hash(req.body.password, 10, function(err, hash) {
                 // Store hash in your password DB.
                 if(err){
