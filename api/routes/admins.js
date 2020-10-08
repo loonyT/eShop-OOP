@@ -76,7 +76,7 @@ router.post('/signup', (req, res, next) => {
 
 });
 
-router.post('/login', (req, res, next) => {
+router.post('/login', (req, res, next) => {  // pour renvoyer le token au front end 
 
     Admin.find({email: req.body.email})
     .exec()
@@ -100,12 +100,12 @@ router.post('/login', (req, res, next) => {
                     if(result){
 
                         // Create token
-                        const payload = {
+                        const payload = {  //durée de validité du token ici ça sera 24h 
                             userId: user[0]._id,
                             iat:  Math.floor(Date.now() / 1000) - 30,
                             exp: Math.floor(Date.now() / 1000) + (60 * 60),
                         }
-                        jwt.sign(payload, 'mysecretkey', function(err, token) {
+                        jwt.sign(payload /* id de l'utilisateur  */, 'mysecretkey', function(err, token) { //encodage du nouveau token 
                             
                             if(err){
                                 return res.status(200).json({
