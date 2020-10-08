@@ -5,6 +5,10 @@ const cors = require('cors');
 const authenticate = require('./api/middleware/authenticate');
 
 mongoose.connect('mongodb+srv://'+ process.env.MONGODB_USERNAME +':'+ process.env.MONGODB_PASSWORD +'@cluster0-axd8v.mongodb.net/mystore?retryWrites=true&w=majority', {useNewUrlParser: true});
+//connexion à la base de données 
+
+
+
 
 const adminRoutes = require('./api/routes/admins');
 const categoryRoutes = require('./api/routes/categories');
