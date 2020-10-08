@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const adminSchema = mongoose.Schema({
+const adminSchema = mongoose.Schema({ // schéma de données grâce à la méthode schéma de mongoose 
     _id: mongoose.Schema.Types.ObjectId,
     firstName: String,
     lastName: String,
@@ -16,4 +16,4 @@ const adminSchema = mongoose.Schema({
     createdAt: Date
 });
 
-module.exports = mongoose.model('Admin', adminSchema);
+module.exports = mongoose.model('Admin', adminSchema); // exportation du schéma en tant que modèle Mongoose 
