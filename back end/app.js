@@ -13,6 +13,9 @@ const productRoutes = require('./api/routes/products');
 const cartItemRoutes = require('./api/routes/cartItems');
 const orderRoutes = require('./api/routes/orders');
 
+
+// app Express = série de fonctions qui sont des middleware recevant les objets req et res sur lesquels elles peuvent faire des opérations ( modifier par ex) 
+
 app.use(cors());
 app.use(express.json());
 
@@ -22,9 +25,9 @@ app.use('/user', userRoutes);
 app.use('/products', productRoutes);
 app.use('/cart', authenticate, cartItemRoutes);
 app.use('/order', authenticate, orderRoutes);
-app.use((req, res, next) => {
+app.use((req, res, next) => {  // next permet de passer à l'exécution du middleware suivant 
     res.status(404).json({
-        message: 'Not Found'
+        message: 'Not Found' //ici on récupère un objet json avec le message spécifié , en faisant une requète au serveur 
     })
 })
 
