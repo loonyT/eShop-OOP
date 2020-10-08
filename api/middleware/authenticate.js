@@ -1,3 +1,7 @@
+
+//grâce à ces lignes de code, seul les requètes authentifiées seront gérées. 
+
+
 const jwt = require('jsonwebtoken');
 
 const authenticate = (req, res, next) => {
