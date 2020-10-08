@@ -23,6 +23,8 @@ const orderRoutes = require('./api/routes/orders');
 app.use(cors());
 app.use(express.json());
 
+// renvoit des catégories de collection dans la base de données => 
+
 app.use('/admin', adminRoutes);
 app.use('/category', categoryRoutes);
 app.use('/user', userRoutes); 
