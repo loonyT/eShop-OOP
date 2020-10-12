@@ -20,6 +20,18 @@ Freshshop is your new customer. They specialize in organic food and biodegradabl
 Freshshop already owns the frontend part of the project. You must now implement the back-end with NodeJS or Php in OOP.
 In this challenge, you will implement as many back-end functionalities as possible in OOP.
 
+Random comments : 
+
+1. Node est le runtime qui permet d'écrire toutes nos tâches côté serveur, en JavaScript, telles que la logique métier, la persistance des données et la sécurité. Node ajoute également des fonctionnalités que le JavaScript du navigateur standard ne possède pas, comme par exemple l'accès au système de fichiers local.
+Express est, pour faire court, un framework reposant sur Node qui facilite la création et la gestion des serveurs Node, comme vous le verrez à mesure que nous progresserons dans ce cours.
+
+2. git ignore et node module pour les trop volumineux 
+3. CORS signifie « Cross Origin Resource Sharing ». Il s'agit d'un système de sécurité qui, par défaut, bloque les appels HTTP d'être effectués entre des serveurs différents, ce qui empêche donc les requêtes malveillantes d'accéder à des ressources sensibles. 
+L’origine c’est le local host 
+4. pour extraire l’objet JSON de la demande POST : il faut un body parser 
+
+
+
 
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
